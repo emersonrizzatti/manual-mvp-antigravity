@@ -13,6 +13,7 @@ Este repositório contém documentação completa e acessível para **pessoas co
 
 1. **[Manual do Desenvolvimento de Software MVP](Manual%20do%20Desenvolvimento%20de%20software%20MVP%20usando%20i.md)** - Guia passo a passo completo
 2. **[Guia para Gestores](Guia%20para%20Gestores_%20Como%20Especificar%20Demandas%20de%20Software.md)** - Como especificar requisitos e regras de negócio
+3. **[Guia para Novos Desenvolvedores](guia_novos_desenvolvedores.md)** - Como colaborar em projetos GitHub já iniciados
 
 ## 🚀 Para quem é este guia?
 
@@ -54,7 +55,8 @@ Os sistemas desenvolvidos seguindo este manual utilizam:
 1. **Comece pelo [Manual do Desenvolvimento](Manual%20do%20Desenvolvimento%20de%20software%20MVP%20usando%20i.md)**
 2. **Consulte o [Guia para Gestores](Guia%20para%20Gestores_%20Como%20Especificar%20Demandas%20de%20Software.md)** para aprender a escrever requisitos claros
 3. **Siga os passos** do manual para criar seu MVP
-4. **Contribua** com melhorias e sugestões!
+4. **Quer contribuir?** Leia o **[Guia para Novos Desenvolvedores](guia_novos_desenvolvedores.md)** para aprender a colaborar com projetos no GitHub
+5. **Contribua** com melhorias e sugestões!
 
 ## 🤝 Como Contribuir
 
