@@ -148,12 +148,17 @@ O software deve ser desenvolvido usando as seguintes tecnologias:
 - PostgreSQL
 - Sequelize
 
-**Frontend:**
+**Frontend:** (Veja mais detalhes no guia "Como desenvolver a Interface do sistema.md")
 - React
 - Vite
 - React Router
 - Lucide React
 - React-Bootstrap (UI/UX Mobile-First)
+
+> [!TIP]
+> **Está em dúvida sobre quais tecnologias usar?** (Ex: Python, Java, No-Code)
+> Consulte o [Guia de Escolha de Tecnologias](Guia%20de%20Escolha%20de%20Tecnologias.md) para ver alternativas e decidir o que é melhor para seu projeto.
+
 
 **Configurações adicionais:**
 - Configurar meu PC local para aceitar acessos via rede local

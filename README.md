@@ -14,6 +14,8 @@ Este repositório contém documentação completa e acessível para **pessoas co
 1. **[Manual do Desenvolvimento de Software MVP](Manual%20do%20Desenvolvimento%20de%20software%20MVP%20usando%20i.md)** - Guia passo a passo completo
 2. **[Guia para Gestores](Guia%20para%20Gestores_%20Como%20Especificar%20Demandas%20de%20Software.md)** - Como especificar requisitos e regras de negócio
 3. **[Guia para Novos Desenvolvedores](guia_novos_desenvolvedores.md)** - Como colaborar em projetos GitHub já iniciados
+4. **[Como desenvolver a Interface do sistema](Como%20desenvolver%20a%20Interface%20do%20sistema.md)** - Diretrizes de UI e UX do projeto
+5. **[Guia de Escolha de Tecnologias](Guia%20de%20Escolha%20de%20Tecnologias.md)** - Como escolher a stack ideal para seu projeto
 
 ## 🚀 Para quem é este guia?
 
