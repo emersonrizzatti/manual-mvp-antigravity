@@ -58,6 +58,39 @@ Se o sistema precisa processar muitos dados ou rodar modelos de IA complexos no 
 
 ---
 
+### 5. Upload de Arquivos e Armazenamento
+Se o seu sistema precisa guardar fotos de usuários, produtos, PDFs de notas fiscais, etc.
+
+**⚠️ Problema:** Em plataformas modernas como Render.com, Vercel ou Heroku, o disco é "efêmero". Se você salvar um arquivo na pasta do projeto, ele será apagado na próxima vez que o site for atualizado ou reiniciar.
+
+- **Solução Recomendada:** Armazenamento em Nuvem (Object Storage).
+    - **Supabase Storage:** Muito fácil de usar, plano gratuito generoso. (Recomendado para iniciantes).
+    - **AWS S3:** Padrão da indústria, mas um pouco mais complexo de configurar.
+    - **Firebase Storage:** Ótimo para quem já usa Firebase no projeto.
+
+- **Como pedir ao Antigravity:**
+  > "Configure o backend para aceitar uploads de arquivos e salvá-los no Supabase Storage (ou AWS S3). Não salve arquivos localmente."
+
+### 6. Onde Publicar seu MVP (Deploy)
+
+Existem várias opções gratuitas para colocar seu site no ar.
+
+#### **Render.com (Recomendado)**
+- **Melhor para:** Aplicações Fullstack (Backend Node.js + Frontend React + Banco de Dados).
+- **Vantagens:** Tem tudo num lugar só. O plano gratuito inclui servidor web e banco de dados (por 90 dias).
+- **Desvantagens:** O servidor "dorme" após 15 minutos sem uso no plano free.
+
+#### **Vercel**
+- **Melhor para:** Frontends (React, Next.js).
+- **Vantagens:** Extremamente rápido, deploy automático ao enviar para o GitHub. A melhor rede de distribuição (CDN).
+- **Desvantagens:** Configurar um Backend tradicional (Express/Node.js) é mais complexo (precisa adaptar para "Serverless Functions"). Não oferece banco de dados nativo (precisa usar externo como Supabase ou Neon).
+
+#### **Resumo da Escolha de Deploy**
+- Se você seguiu a **Stack Padrão** deste manual (Node + Express + React): **Use o Render.com**.
+- Se você usou **Next.js** ou só tem Frontend: **Use a Vercel**.
+
+---
+
 ## 📊 Tabela Comparativa Simplificada
 
 | Necessidade | Tecnologia Recomendada | Dificuldade Inicial | Escalabilidade |
